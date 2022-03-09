@@ -6,7 +6,7 @@ export const handler: Handler = async (event: APIGatewayProxyEvent): Promise<API
   const val = _.random(max);
   const response = {
     statusCode: 200,
-    body: `The random value (max ${max}) is: ${val}`,
+    body: `The random value (max ${max}) is: ${val} also welcome to jumanji`,
   };
   return response;
 };
